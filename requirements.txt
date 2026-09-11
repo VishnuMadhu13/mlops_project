@@ -6,3 +6,4 @@ mlflow
 pydantic
 evidently
 requests
+pytest
