@@ -62,5 +62,5 @@ def run_pipeline():
     else:
         print("No significant drift detected. Model operating within normal bounds.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     run_pipeline()
