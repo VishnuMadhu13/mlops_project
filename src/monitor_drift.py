@@ -63,9 +63,7 @@ def check_data_drift():
 
     # Consider the dataset drifted when at least
     # half of the features show significant drift.
-    dataset_drift = drifted_cols >= (
-        len(iris.feature_names) / 2
-    )
+    dataset_drift = drifted_cols >= 1
 
     print(
         f"Dataset Drift Detected: {dataset_drift}"
